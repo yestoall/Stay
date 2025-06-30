@@ -1,4 +1,4 @@
-# Stay 
+# Stay
 
 ```bash
 
@@ -18,11 +18,10 @@
 
 ## Estructura de carpetas
 
-- _@/app_ -> las rutas de la app (navegación)z
+- _@/app_ -> las rutas de la app (navegación)
 - _@/assets_ -> los assets de la app (imágenes, fuentes, etc)
 - _@/hooks_ -> los hooks personalizados
 - _@/screens_ -> las pantallas de la app
-- _@/stores_ -> los stores personalizados
 - _@/utils_ -> las funciones de utilidades globales
 
 ### @/app -> rutas
@@ -40,14 +39,10 @@ parámetros que reciban
 
 Los componentes a medida para esta app
 
-### @/stores -> zustand global state
-
-Stores personalizados para esta app
-
 ### @/hooks -> custom hooks
 
 Hooks personalizados para esta app
 
-### @/utils -> cn, colors
+### @/utils -> utiliza
 
 Utilidades globales para ser usados dentro de screens, componentes y hooks
