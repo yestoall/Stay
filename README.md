@@ -1,24 +1,18 @@
 # Stay
 
+Pendiente de documentar la puesta en marcha y diseño de la aplicación.
+
 ```bash
 
-  # crea un prebuild en local -> necesitaremos Xcode y Android Studio para compilar localmente
-  npx expo prebuild
-
-  # esto creará el proyecto compilado localmente con Xcode (tardará un rato)
-  npx expo run:ios
-
-  # para compilar en iPhone real -> lo compilará en la nube con EAS
-  eas build --profile development --platform ios
-
-  # web -> para compilar en web
-  npx expo export --platform web
+  # elegir ExpoGo para no tener que compilarla y usar ExpoGo para probar la app
+  bun start
 
 ```
 
 ## Estructura de carpetas
 
 - _@/app_ -> las rutas de la app (navegación)
+- _@/components_ -> los assets de la app (imágenes, fuentes, etc)
 - _@/assets_ -> los assets de la app (imágenes, fuentes, etc)
 - _@/hooks_ -> los hooks personalizados
 - _@/screens_ -> las pantallas de la app
