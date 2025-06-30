@@ -1,0 +1,29 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@ui/*": [
+        "./components/ui/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/types/**/*.d.ts",
+    "expo-env.d.ts",
+    "babel.config.js",
+    "nativewind-env.d.ts",
+    ".expo/types/**/*.ts",
+    "src/components/Recipes/item.tsxOLD",
+    "src/components/Recipes/index.tsxOLD"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
