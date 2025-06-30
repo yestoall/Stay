@@ -57,8 +57,8 @@ export default function RootLayout() {
             options={{ headerShown: true, title: "Stay" }}
           />
           <Stack.Screen
-            name="location/[id]"
-            options={{ headerShown: true, title: "location" }}
+            name="destination"
+            options={{ headerShown: true, title: "Destination" }}
           />
           <Stack.Screen name="+not-found" />
         </Stack>

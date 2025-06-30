@@ -13,20 +13,13 @@ interface Props {
 export const DestinationsScreen = ({ destinations }: Props) => {
   console.log("DestinationsScreen", destinations)
   return (
-    <View className="flex h-full w-full items-start justify-start bg-background pt-4">
+    <View className="flex h-full w-full items-start justify-start bg-background">
       <View className="flex h-full w-full flex-1 px-2">
         <FlashList
           data={destinations}
           estimatedItemSize={80}
-          renderItem={({ item }) => {
-            console.log("Rendering item:", item.id)
-            return (
-              <DestinationListItem
-                item={item}
-                onPress={() => console.log("Destination pressed:", item.id)}
-              />
-            )
-          }}
+          renderItem={({ item }) => <DestinationListItem item={item} />}
+          ListHeaderComponent={() => <View className="h-4" />}
           ListFooterComponent={() => <View className="h-10" />}
         />
       </View>
