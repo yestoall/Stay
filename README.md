@@ -2,11 +2,10 @@
 
 ## Demo de la aplicación (detalle de listado)
 
-<img src="demo/demo01.png" alt="Demo del listado de destinos" width="50%" />
+<img src="demo/demo01.png" alt="listado de destinos" width="30%" />
+<img src="demo/demo02.png" alt="página de destino" width="30%" />
 
 ## Demo de la aplicación (detalle de página de destino)
-
-<img src="demo/demo02.png" alt="Demo de la página de destino" width="50%" />
 
 ## Consideraciones del desarrollo:
 
