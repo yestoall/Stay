@@ -1,11 +1,10 @@
 # Stay
 
-## Demo de la aplicación (detalle de listado)
+## Demo de la aplicación
 
-<img src="demo/demo01.png" alt="listado de destinos" width="30%" />
-<img src="demo/demo02.png" alt="página de destino" width="30%" />
-
-## Demo de la aplicación (detalle de página de destino)
+| Listado de destinos | Página de destino |
+|:---:|:---:|
+| <img src="demo/demo01.png" alt="listado" width="100%" /> | <img src="demo/demo02.png" alt="destino" width="100%" /> |
 
 ## Consideraciones del desarrollo:
 
