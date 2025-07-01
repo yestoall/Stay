@@ -2,7 +2,7 @@
 
 ## Demo de la aplicación (detalle de listado)
 
-<img src="demo/demo01.png" alt="Demo del listado de destinos" width="50%" />
+<img src="demo/demo01.png" alt="Demo del listado de destinos" width="200" />
 
 ## Demo de la aplicación (detalle de página de destino)
 
