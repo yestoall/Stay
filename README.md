@@ -1,12 +1,10 @@
-# Stay
-
-## Demo de la aplicación
+# Stay (demo de la aplicación)
 
 |           destinos           |       detalle destino        |
 | :--------------------------: | :--------------------------: |
 | ![alt text](demo/demo01.png) | ![alt text](demo/demo02.png) |
 
-## Consideraciones del desarrollo:
+## Consideraciones del desarrollo
 
 - He elegido _bun_ como gestor de paquetes por su velocidad.
 - Utilizo _Expo_ para el desarrollo multiplataforma por encima de ReactNative
@@ -22,7 +20,7 @@
 - Uso _React Router_ para la navegación por su potencia, simplicidad y facilidad
   de uso. Permite probar rutas personalizadas.
 
-Datos:
+## Datos
 
 - He creado un _API_ para acceder al endpoint proporcionado para esta demo.
   Escondiendo así el APIkey que debe ser privado y estar en el código fuente de
