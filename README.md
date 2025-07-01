@@ -31,7 +31,7 @@
   proporciona evitamos innecesarias peticiones al servidor, mejorando el
   rendimiento de la app y la experiencia de usuario.
 - El listado de destinos se obtiene desde el _API_ y se muestra en una pantalla
-  de listado. Uso el componente _FlatList_ para mostrar los listados qye que
+  de listado. Uso el componente _FlashList_ para mostrar los listados ya que
   optimiza el rendimiento y la experiencia de usuario al manejar grandes
   volúmenes de datos y redibujar solos los elementos visibles en pantalla.
   Renderizo los elementos del listado de manera recursiva lo que hace que el
