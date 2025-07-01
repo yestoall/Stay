@@ -2,10 +2,9 @@
 
 ## Demo de la aplicación
 
-|                   Listado de destinos                    |                    Página de destino                     |
-| :------------------------------------------------------: | :------------------------------------------------------: |
-| <img src="demo/demo01.png" alt="listado" width="100%" /> | <img src="demo/demo02.png" alt="destino" width="100%" /> |
-|               ![alt text](demo/demo01.png)               |               ![alt text](demo/demo02.png)               |
+|           destinos           |       detalle destino        |
+| :--------------------------: | :--------------------------: |
+| ![alt text](demo/demo01.png) | ![alt text](demo/demo02.png) |
 
 ## Consideraciones del desarrollo:
 
