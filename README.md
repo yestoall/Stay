@@ -2,7 +2,7 @@
 
 ## Demo de la aplicación (detalle de listado)
 
-<img src="demo/demo01.png" alt="Demo del listado de destinos" width="200" />
+<img src="demo/demo01.png" alt="Demo del listado de destinos" width="50%" />
 
 ## Demo de la aplicación (detalle de página de destino)
 
@@ -19,7 +19,8 @@
   potente y coherente en toda la aplicación, por simplicidad de uso, porque
   reduce el tiempo de implementación de estilos y reduce considerablemente el
   tamaño de la app optimizando el rendimiento. Sobre todo es muy fácil de
-  extender y personalizar.
+  extender y personalizar. El diseño esta implementado de manera responsive para
+  adaptarse a cualquier tipo tamaño de pantalla o dispositivo.
 - Uso _React Router_ para la navegación por su potencia, simplicidad y facilidad
   de uso. Permite probar rutas personalizadas.
 
@@ -33,12 +34,28 @@ Datos:
   esta librería gestionamos las peticiones al API y con la caché de datos que
   proporciona evitamos innecesarias peticiones al servidor, mejorando el
   rendimiento de la app y la experiencia de usuario.
+- El listado de destinos se obtiene desde el _API_ y se muestra en una pantalla
+  de listado. Uso el componente _FlatList_ para mostrar los listados qye que
+  optimiza el rendimiento y la experiencia de usuario al manejar grandes
+  volúmenes de datos y redibujar solos los elementos visibles en pantalla.
+  Renderizo los elementos del listado de manera recursiva lo que hace que el
+  código sea más limpio y fácil de mantener.
+- Sólo si se toca un destino final se muestra una página de detalle.
+- Esta implementada la funcionalidad de destacar los destinos _TOP_ pero al no
+  haber ninguno en el endpoint proporcionado no se esta mostrando ninguno por el
+  momento.
 
 ## Estructura de carpetas
 
+Me gusta seguir esta estructura de carpetas, distinguiendo lo que son rutas,
+pantallas, componentes y utilidades. Con esta estructura es fácil de entender y
+mantener el código, separando las responsabilidades de cada parte de la
+aplicación.
+
 - _@/app_ -> las rutas de la app (navegación)
 - _@/screens_ -> las pantallas de la app
-- _@/components_ -> los assets de la app (imágenes, fuentes, etc)
+- _@/components_ -> componentes a medida de la app (reutilizables en diferentes
+  pantallas o componentes)
 - _@/assets_ -> los assets de la app (imágenes, fuentes, etc)
 - _@/utils_ -> las funciones de utilidades globales
 
