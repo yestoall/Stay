@@ -22,6 +22,9 @@
 
 ## Datos
 
+- He creado unos tipos de datos globales en _types.d.ts_ para controlar bien el
+  flujo de datos y evitar errores en tiempo de desarrollo (en mi opinión esa es
+  la mejor manera de testar de manera continua y evitar sorpresas).
 - He creado un _API_ para acceder al endpoint proporcionado para esta demo.
   Escondiendo así el APIkey que debe ser privado y estar en el código fuente de
   la app (uso variables de entorno que no están copiadas en github por razones
@@ -85,27 +88,26 @@ Utilidades globales para ser usados dentro de screens, componentes y hooks
 # Instalación de Stay DEMO
 
 ```bash
-
-
   # clonar el repositorio e instalar las dependencias con bun
   bun install
 
   # elegir ExpoGo para no tener que compilarla, abrir la app en el simulador iOS / Android
   bun start
-
 ```
 
 ## Notas finales
 
 No he incluido test unitarios dado que no suelo utilizarlos en mis proyectos
-nativos últimamente.
-
-Entre el tiempo que se tarda en escribirlos, la ayuda que me da typescript,
-linter y el tiempo que se tarda en depurar errores, no me compensa.
+nativos últimamente. Entre la ayuda que me dan typescript/linter en tiempo de
+desarrollo y el tiempo que se tarda en escribir los test no me compensan.
 
 La configuración de test con las ultimas versiones de react native y expo es muy
-engorrosa y no me ha compensado el tiempo para el resultado que obtengo al
-final.
+engorrosa y no terminan de compensarme los resultados que obtengo. Es cierto que
+los test unitarios son una buena practica de desarrollo que he utilizado en el
+pasado web pero para proyectos nativos no los he visto necesarios en mis últimos
+proyectos. En algún caso estoy utilizando UI tests con maestro: sobre todo para
+validar formularios e interacciones con el diseño, pero para esta demo simple no
+son necesarios.
 
 Si es algo importante para Stay puedo desarrollarlos en un futuro. Pero
 actualmente no le veo el sentido.
