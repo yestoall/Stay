@@ -1,8 +1,8 @@
 # Stay (demo de la aplicación)
 
-|           destinos           |       detalle destino        |
-| :--------------------------: | :--------------------------: |
-| ![alt text](demo/demo01.png) | ![alt text](demo/demo02.png) |
+|           destinos           |          detalle destino           |
+| :--------------------------: | :--------------------------------: |
+| ![alt text](demo/demo01.png) | ![alt text](demo/demo_animado.gif) |
 
 ## Video demo de la aplicación
 
@@ -16,7 +16,7 @@
 - Utilizo _Expo_ para el desarrollo multiplataforma por encima de ReactNative
   por si facilidad de uso, la comunidad, sus librerías open source.
 - Uso _TypeScript_ por su tipado y su capacidad para detectar errores en tiempo
-  de desarrollo.q
+  de desarrollo.
 - Uso _NativeWind_ para el diseño de la app por tener un sistema de diseño
   potente y coherente en toda la aplicación, por simplicidad de uso, porque
   reduce el tiempo de implementación de estilos y reduce considerablemente el
