@@ -2,7 +2,7 @@
 
 |           destinos           |          detalle destino           |
 | :--------------------------: | :--------------------------------: |
-| ![alt text](demo/demo01.png) | ![alt text](demo/demo_animado.gif) |
+| ![alt text](demo/demo01.png) | ![alt text](demo/demo-animado.gif) |
 
 ## Video demo de la aplicación
 
