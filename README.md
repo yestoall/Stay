@@ -4,21 +4,33 @@
 | :--------------------------: | :--------------------------: |
 | ![alt text](demo/demo01.png) | ![alt text](demo/demo02.png) |
 
+## Video demo de la aplicación
+
+<video width="400" controls>
+  <source src="demo/demo_video_01.mp4" type="video/mp4">
+</video>
+
 ## Consideraciones del desarrollo
 
 - He elegido _bun_ como gestor de paquetes por su velocidad.
 - Utilizo _Expo_ para el desarrollo multiplataforma por encima de ReactNative
   por si facilidad de uso, la comunidad, sus librerías open source.
 - Uso _TypeScript_ por su tipado y su capacidad para detectar errores en tiempo
-  de desarrollo.
+  de desarrollo.q
 - Uso _NativeWind_ para el diseño de la app por tener un sistema de diseño
   potente y coherente en toda la aplicación, por simplicidad de uso, porque
   reduce el tiempo de implementación de estilos y reduce considerablemente el
   tamaño de la app optimizando el rendimiento. Sobre todo es muy fácil de
   extender y personalizar. El diseño esta implementado de manera responsive para
   adaptarse a cualquier tipo tamaño de pantalla o dispositivo.
+- El diseño de la aplicación lo he hecho minimalista y aplicando un sistema de
+  diseño básico con NativeWind a modo de ejemplo utilizando pocos colores y
+  formas.
 - Uso _React Router_ para la navegación por su potencia, simplicidad y facilidad
   de uso. Permite probar rutas personalizadas.
+- He decidido usar _Moti_ para animar la lista y sus nodos y darle un poco de
+  personalidad, muy minimalista. Todas las animaciones se hacen aplicando
+  estilos inline.
 
 ## Datos
 
