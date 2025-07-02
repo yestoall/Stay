@@ -4,7 +4,7 @@ import React from "react"
 import { View } from "react-native"
 import { FlashList } from "@shopify/flash-list"
 
-import { DestinationListItem } from "@/components/Destination/DestinationListItemOLD"
+import { DestinationListItem } from "@/components/Destination/DestinationListItem"
 
 interface Props {
   destinations: Destination[]
