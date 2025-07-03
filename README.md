@@ -76,6 +76,18 @@ Las rutas deben simplemente llamar a Screens y pasar los props que necesite.
 Pueden hacer tener la lógica de navegación y autenticación pero no de diseño,
 esa es la parte de Screens.
 
+### @/app/API
+
+El API de la app, donde se gestionan las peticiones al servidor. Esta parte se
+ejecuta en el servidor, no en el cliente. Asi tenemos a salvo las APIkeys que se
+cargan desde dos variables de entorno STAY_API_KEY y STAY_API_URL que no están
+subidas a github por razones de seguridad.
+
+```bash
+  STAY_API_URL=... # contiene la URL del API de Stay
+  STAY_API_KEY=... # contiene la API key de Stay
+```
+
 ### @/screens
 
 Las pantallas de la app -> deben funcionar por si mismas, dependiendo de los
@@ -102,6 +114,16 @@ Utilidades globales para ser usados dentro de screens, componentes y hooks
 Yo trabajo en entornos MacOS, estas instrucciones están pensadas para este
 sistema. En windows no debería ser muy diferente.
 
+Hay que crear un fichero con variables de entorno _.env_ en la raíz del proyecto
+con las siguientes variables:
+
+```bash
+  STAY_API_URL=https://...    # contiene la URL del API de Stay
+  STAY_API_KEY=...            # contiene la API key de Stay
+```
+
+Desde la line a comandos, en la raíz del proyecto, ejecutar:
+
 ```bash
   # clonar el repositorio e instalar las dependencias con bun
   bun install
@@ -111,7 +133,7 @@ sistema. En windows no debería ser muy diferente.
   bun run android # se abrirá el proyecto con ExpoGo son el simulador Android
   # necesita tener instalado Android Studio y tener el simulador abierto
 
-  # NOTA: expo orbit
+  # NOTA: ExpoOrbit
   # https://expo.dev/orbit -> es gratuito
   # Orbit mejora mucho la experiencia de utilizar diferentes simuladores de dispositivos para testar
 ```

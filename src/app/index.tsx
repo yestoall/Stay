@@ -9,7 +9,7 @@ import { ErrorText } from "@/components/ErrorText"
 import { DestinationsScreen } from "@/screens/DestinationsScreen"
 
 export default function Index() {
-  // obtener los destinos desde el API
+  // obtener los destinos desde el API y cachearlos con tanstack/query
   const destinationsQuery = useQuery({
     queryKey: ["destinations"],
     queryFn: () => fetch("/api/destinations").then((res) => res.json()),
