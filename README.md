@@ -6,7 +6,11 @@
 
 ## Video demo de la aplicación
 
-<iframe width="300" height="534" src="https://www.youtube.com/shorts/wk0tOVAtSco" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="300" height="534" src="https://www.youtube.com/shorts/wk0tOVAtSco" frameborder="0" allowfullscreen></iframe> -->
+
+<a href="https://www.youtube.com/shorts/wk0tOVAtSco">
+  <img src="https://img.youtube.com/vi/wk0tOVAtSco/maxresdefault.jpg" alt="Ver video" width="300">
+</a>
 
 ## Consideraciones del desarrollo
 
