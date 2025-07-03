@@ -99,12 +99,21 @@ Utilidades globales para ser usados dentro de screens, componentes y hooks
 
 # Instalación de Stay DEMO
 
+Yo trabajo en entornos MacOS, estas instrucciones están pensadas para este
+sistema. En windows no debería ser muy diferente.
+
 ```bash
   # clonar el repositorio e instalar las dependencias con bun
   bun install
 
-  # elegir ExpoGo para no tener que compilarla, abrir la app en el simulador iOS / Android
-  bun start
+  bun run ios # se abrirá el proyecto con ExpoGo son el simulador iOS
+
+  bun run android # se abrirá el proyecto con ExpoGo son el simulador Android
+  # necesita tener instalado Android Studio y tener el simulador abierto
+
+  # NOTA: expo orbit
+  # https://expo.dev/orbit -> es gratuito
+  # Orbit mejora mucho la experiencia de utilizar diferentes simuladores de dispositivos para testar
 ```
 
 ## Notas finales

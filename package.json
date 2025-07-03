@@ -5,6 +5,10 @@
   "scripts": {
     "start": "expo start",
     "dev": "APP_VARIANT=development expo start",
+    "go": "expo start --go",
+    "tunnel": "expo start --tunnel --go",
+    "ios": "expo start --ios --go",
+    "android": "expo start --android --go",
     "up": "bun outdated; bun update; expo install --fix;",
     "test": "jest --watchAll",
     "lint": "expo lint"
