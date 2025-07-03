@@ -1,10 +1,14 @@
 # Stay (demo de la aplicación)
 
-|           destinos           |                                                                detalle destino                                                                |
-| :--------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![alt text](demo/demo01.png) | <a href="https://www.youtube.com/shorts/wk0tOVAtSco"><img src="https://img.youtube.com/vi/wk0tOVAtSco/maxresdefault.jpg" alt="Ver video"></a> |
+|           destinos           |          detalle destino           |
+| :--------------------------: | :--------------------------------: |
+| ![alt text](demo/demo01.png) | ![alt text](demo/demo-animado.gif) |
 
 ## Video demo de la aplicación
+
+<a href="https://www.youtube.com/shorts/wk0tOVAtSco">
+  <img src="https://img.youtube.com/vi/wk0tOVAtSco/maxresdefault.jpg" alt="Ver video" width="400">
+</a>
 
 ## Consideraciones del desarrollo
 
