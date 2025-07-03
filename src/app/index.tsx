@@ -20,11 +20,14 @@ export default function Index() {
   if (destinationsQuery.isError)
     return <ErrorText>{destinationsQuery.error.message}</ErrorText>
 
-  if (!destinationsQuery.data || destinationsQuery.data.length === 0)
-    return <ErrorText>No hay datos disponibles</ErrorText>
+  if (!destinationsQuery.data.success)
+    return <ErrorText>ERROR en el API destinations</ErrorText>
 
   if (destinationsQuery.data.error)
     return <ErrorText>ERROR en el API destinations</ErrorText>
+
+  if (!destinationsQuery.data || destinationsQuery.data.length === 0)
+    return <ErrorText>No hay datos disponibles</ErrorText>
 
   const destinations = destinationsQuery.data.data.data as Destination[]
   return <DestinationsScreen destinations={destinations} />
