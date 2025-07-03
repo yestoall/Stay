@@ -6,9 +6,7 @@
 
 ## Video demo de la aplicación
 
-<video width="400" controls>
-  <source src="demo/demo_video_01.mp4" type="video/mp4">
-</video>
+<iframe width="300" height="534" src="https://www.youtube.com/shorts/wk0tOVAtSco" frameborder="0" allowfullscreen></iframe>
 
 ## Consideraciones del desarrollo
 
